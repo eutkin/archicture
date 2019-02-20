@@ -1,18 +1,16 @@
 package io.github.eutkin.calculator.service.impl;
 
+import io.github.eutkin.calculator.model.Result;
+import io.github.eutkin.calculator.model.Task;
 import io.github.eutkin.calculator.service.TaskCalculatorFacade;
 import io.github.eutkin.calculator.service.exception.CalculateException;
 import io.github.eutkin.calculator.service.exception.ResultHandleException;
 import io.github.eutkin.calculator.service.exception.TaskHandleException;
-import io.github.eutkin.calculator.service.model.Result;
-import io.github.eutkin.calculator.service.model.Task;
+import io.github.eutkin.calculator.service.spi.TaskPreHandler;
 import io.github.eutkin.calculator.service.spi.ResultHandler;
 import io.github.eutkin.calculator.service.spi.TaskCalculator;
-import io.github.eutkin.calculator.service.spi.TaskPreHandler;
 import io.github.eutkin.calculator.service.view.Feedback;
 import io.github.eutkin.calculator.service.view.ResultInfo;
-
-import java.util.function.Function;
 
 public class TaskCalculatorFacadeImpl implements TaskCalculatorFacade {
 

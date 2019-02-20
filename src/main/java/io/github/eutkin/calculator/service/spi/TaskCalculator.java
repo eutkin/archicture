@@ -1,8 +1,8 @@
 package io.github.eutkin.calculator.service.spi;
 
 import io.github.eutkin.calculator.service.exception.CalculateException;
-import io.github.eutkin.calculator.service.model.Result;
-import io.github.eutkin.calculator.service.model.Task;
+import io.github.eutkin.calculator.model.Result;
+import io.github.eutkin.calculator.model.Task;
 import org.springframework.lang.NonNull;
 
 public interface TaskCalculator {

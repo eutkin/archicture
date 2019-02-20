@@ -1,7 +1,7 @@
 package io.github.eutkin.calculator.service;
 
 import io.github.eutkin.calculator.service.view.Feedback;
-import io.github.eutkin.calculator.service.model.Task;
+import io.github.eutkin.calculator.model.Task;
 import org.springframework.lang.NonNull;
 
 /**

@@ -2,7 +2,7 @@ package io.github.eutkin.calculator.service.spi;
 
 
 import io.github.eutkin.calculator.service.exception.ResultHandleException;
-import io.github.eutkin.calculator.service.model.Result;
+import io.github.eutkin.calculator.model.Result;
 import io.github.eutkin.calculator.service.view.ResultInfo;
 import org.springframework.lang.NonNull;
 

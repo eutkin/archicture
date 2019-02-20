@@ -1,7 +1,7 @@
 package io.github.eutkin.calculator.service.spi;
 
 import io.github.eutkin.calculator.service.exception.TaskHandleException;
-import io.github.eutkin.calculator.service.model.Task;
+import io.github.eutkin.calculator.model.Task;
 import org.springframework.lang.NonNull;
 
 public interface TaskPreHandler {
